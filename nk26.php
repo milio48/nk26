@@ -17,8 +17,12 @@ function nk26_encode_safe($data) {
 }
 
 function nk26_decode($data) {
-    $a    = array('y',    'z',    ' ');
-    $b    = array('111', '11111', '0');         
+    $a    = array('z',     ' ');
+    $b    = array('11111', '0');         
+    $data = str_replace($b, $a, $data);
+
+    $a    = array('y');
+    $b    = array('111');         
     $data = str_replace($b, $a, $data);
 
     $a    = array('q',   'r',   's',   't',   'u',   'v',   'w',   'x');
