@@ -1,8 +1,8 @@
 # nk26
-Nkosec Encode, 2 side encode. change alphabet to numeric or  numeric to alphabet.
+Nkosec Encode, 2 side encode. change alphabet to numeric or  back numeric to alphabet.
 
 ### nk26 logic
-<img src="https://raw.githubusercontent.com/milio48/nk26/master/nk26-logic.jpg" width="60%"></img>
+<img src="https://raw.githubusercontent.com/milio48/nk26/master/nk26-logic-fixed.jpg" width="60%"></img>
  - focused on alphanumeric, use a simple logic str_replace.
  - this logic is made, when I make a challenge for a friend in a detective game.
 
